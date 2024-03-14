@@ -35,7 +35,7 @@ public class AppEntry extends EzySimpleAppEntry {
   @Override
   protected String[] getScanablePackages() {
     return new String[] {
-      "com.ezyfoxserver.app", "com.ezyfoxserver.event.handler", "com.ezyfoxserver.service",
+      "com.ezyfoxserver.app", "com.ezyfoxserver.event.handler", "com.ezyfoxserver.service", "com.ezyfoxserver.dto",
     };
   }
 }
